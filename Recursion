@@ -22,3 +22,24 @@ import java.util.*;
      Obj.reve_num(last,end);
    }
  }
+
+2) Sum of Natural number 
+//Fromula = n(n+1)/2   here last * (last+1),divide by 2;
+
+import java.util.*;
+ public class Main{
+   public static void sum_num(int n,int l){
+    
+   }
+   public static void main(String []args){
+     Scanner open = new Scanner(System.in);
+     Main obj = new Main();
+     int n=1;
+     int l = open.nextInt();
+   
+   int numr=l*(l+1);
+   int deno= numr/2;
+   System.out.print(deno); 
+    
+   }
+ }
