@@ -1,0 +1,24 @@
+Recursion :- 
+1) Reversing number from one number to another number
+
+import java.util.*;
+ public class Main{
+   
+   public static void reve_num(int st_num,int en_num){
+    if(st_num==en_num){
+      return;
+    }
+     System.out.println(st_num);
+     reve_num(st_num - 1,en_num);
+   }
+   public static void main(String args[]){
+     Scanner open = new Scanner(System.in);
+     System.out.println("Enter last Val");
+     int last = open.nextInt();
+     System.out.println("Enter End Val");
+     int end = open.nextInt();
+     Main Obj = new Main();
+     //Obj.reve_num(val);
+     Obj.reve_num(last,end);
+   }
+ }
